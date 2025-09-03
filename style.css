@@ -1,0 +1,73 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+.clock-container {
+  padding: 40px 60px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.time {
+  font-size: 64px;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+
+.date {
+  font-size: 20px;
+  margin-top: 10px;
+  opacity: 0.8;
+  transition: all 0.5s ease-in-out;
+}
+
+.fade {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.4;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.logo-kanan-atas {
+  position: absolute;
+  top: 0px;
+  right: -5px;
+  z-index: 1000;
+}
+
+.logo-kanan-atas img {
+  height: 180px; /* Ukuran logo */
+  width: auto;
+}
+
+.logo-kiri-atas {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 10px;   /* Atur ukuran sesuai kebutuhan */
+    height: auto;
+}
+
+.credit {
+      margin-top: 30px;
+      font-size: 18px;
+      color: #ffffff;
+ }
