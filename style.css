@@ -4,14 +4,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #2f00ff, #a200ff);
+  background: linear-gradient(135deg, #f9f8ff, #002affd7);
   font-family: 'Segoe UI', sans-serif;
   color: white;
 }
 
 .clock-container {
   padding: 40px 60px;
-  background: rgba(0, 0, 0, 0.553);
+  background: rgba(0, 0, 0, 0.849);
   border-radius: 20px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
