@@ -4,19 +4,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  background: linear-gradient(135deg, #2f00ff, #a200ff);
   font-family: 'Segoe UI', sans-serif;
   color: white;
 }
 
 .clock-container {
   padding: 40px 60px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.553);
   border-radius: 20px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
   text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(19, 18, 18, 0.1);
 }
 
 .time {
